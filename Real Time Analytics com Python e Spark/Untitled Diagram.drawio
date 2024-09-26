@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2020-09-29T03:14:13.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="79M_GMcwdC-FS4JqbhMM" version="13.7.6" type="github">
+  <diagram id="0d7cefc2-ccd6-e077-73ed-a8e48b0cddf6" name="Page-1">
+    <mxGraphModel dx="1577" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vh3PgqN0A4IOIpvQGSBD-113" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="230" width="480" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="vh3PgqN0A4IOIpvQGSBD-112" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;API Tweeter&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="vh3PgqN0A4IOIpvQGSBD-113">
+          <mxGeometry width="460" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="vh3PgqN0A4IOIpvQGSBD-106" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Twitter-128.png" vertex="1" parent="vh3PgqN0A4IOIpvQGSBD-113">
+          <mxGeometry x="144" y="71.11111111111111" width="62.22222222222221" height="62.22222222222221" as="geometry" />
+        </mxCell>
+        <mxCell id="vh3PgqN0A4IOIpvQGSBD-115" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Terminal&lt;/font&gt;&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/soda-red/128/terminal.png" vertex="1" parent="1">
+          <mxGeometry x="715" y="460" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vh3PgqN0A4IOIpvQGSBD-120" value="&lt;b style=&quot;font-size: 20px&quot;&gt;twitter_reader.py&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/oxygen/128x128/mimetypes/application-x-python.png" vertex="1" parent="1">
+          <mxGeometry x="550" y="130" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vh3PgqN0A4IOIpvQGSBD-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vh3PgqN0A4IOIpvQGSBD-121" target="vh3PgqN0A4IOIpvQGSBD-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vh3PgqN0A4IOIpvQGSBD-121" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Streaming.py&lt;/font&gt;&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/oxygen/128x128/mimetypes/application-x-python.png" vertex="1" parent="1">
+          <mxGeometry x="850" y="130" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vh3PgqN0A4IOIpvQGSBD-124" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vh3PgqN0A4IOIpvQGSBD-112" target="vh3PgqN0A4IOIpvQGSBD-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vh3PgqN0A4IOIpvQGSBD-125" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vh3PgqN0A4IOIpvQGSBD-120" target="vh3PgqN0A4IOIpvQGSBD-121">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="310" as="sourcePoint" />
+            <mxPoint x="870" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
